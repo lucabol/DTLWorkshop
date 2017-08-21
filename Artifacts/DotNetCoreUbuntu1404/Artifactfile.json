@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "DotNet Core 2.0",
+    "publisher": "Microsoft",
+    "description": "Install .NET Core on Linux",
+    "tags": [
+        "DotNet",
+        "Linux"
+    ],
+    "iconUri": "https://dotnet.github.io/images/Logo_DotNet.png",
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh DotNetCoreUbuntu.sh']"
+    }
+}
