@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "title": "Remote Desktop",
+  "description": "Enables Remote Desktop using xrdp",
+  "iconUri": "http://www.xrdp.org/templates/rhuk_milkyway/images/xrdp_logo_nodarkfill-256x75.png",
+  "targetOsType": "Linux",
+  "parameters": {
+  },
+  "runCommand": {
+    "commandToExecute": "sh run-log.sh linux-rdp.log install-xrdp.sh"
+  }
+}
